@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!--Do not forget image width and height-->
+<html lang ="en">
+    <head>
+        <title>Contacts</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Brian Kamau">
+        <link rel="stylesheet" href="CSSfiles/mainone.css">
+        <link rel="icon" href="Images/favicon.ico">
+        
+    </head>
+    <body>
+        <main>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="thelittletacoshop.html">Home</a></li>
+                <li><a href="thelittletacoshop.html#aboutlts">About LTS</a></li>
+                <li><a href="thelittletacoshop.html#ourmenu">Our Menu</a></li>
+                <li><a href="storehours.html">Store Hours</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="Images/tacoscloseup.jpeg" alt="Tacos Close Up Image" title="Tacos Tray"
+            width="400" height="260">
+            <figcaption>Little Taco Shop Tacos</figcaption>
+             
+        </figure>
+    
+        <section>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+                    <p>
+                        <label for="fullname">Name: </label>
+                        <input type="text" name="fullname" id="fullname" placeholder="your name" required>
+                    </p>
+                    <p>
+                        <label for="youremail">Email: </label>
+                        <input type="email" name="youremail" id="youremail" placeholder="your email"  required>
+                    </p>
+                    Your Message: <br>
+                    <textarea required name="yourmessage" id="yourmessage" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                </fieldset>
+                
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Send</button>
+                <button type="reset">Reset</button>
+            
+            </form>
+            <figure>
+                <img src="Images/hiii.jpeg" alt="PLs load, refresh it will load" class="hiii" width="70" height="120">
+            </figure>
+        </section>
+        <h2>Our Location</h2>
+        <address>555 Taco Temptation Lane, Suite T <br>Kansas City, MO 55555-5555</address>
+        <p><em>Phone: </em><a href="tel:+55555_5555">55555_5555</a></p>
+        <a href="#">Back to Top</a>
+        <hr>
+    
+        <footer>
+            <p>Copyright &copy; The Little Taco Shop</p>
+        </footer>
+    </main>
+    </body>
+</html>
